@@ -1,7 +1,7 @@
 # prettier-precommit-for-js
 [pre-commit](https://pre-commit.com/) is a git hook that runs everytime prior to making a commit. Setting up prettier code formatter with `pre-commit` will format all your javascript code inside your local repository according to the prettier code formatter prior to any commit. This allows to maintain the same code formatting across all local repositories of multiple team members working on the same project.
 
-Steps for setting up `pre-commit` to apply `prettier` formatting to `javascript` code inside codebase are as follows:
+Steps for setting up `pre-commit` to apply `prettier` formatting to `javascript` code inside repository before a commit are as follows:
 
 ## Step 1: Install python and pip
 - Install latest version of python 3 from [here](https://www.python.org/downloads/). (**Please remember to check the** ***'Add Python 3.x to PATH'*** **checkbox when installing, it is not checked by default.**) 
